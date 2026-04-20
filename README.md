@@ -1,31 +1,38 @@
 <div align="center">
-  <img src="/Assets/Aurora.png" alt="Aurora Logo Banner" />
+  <img src="/Assets/Aurora.png" width="800" alt="Aurora Logo Banner" />
   <h2>Aurora</h2>
   <p>Ambient sounds for focus and calm.</p>
-  <a href="https://Aurora.fanclub.rocks/">Visit <strong>Aurora</strong></a> | <a href="https://aurora.fanclub.rocks/donate.html">Buy Me a Coffee</a>
-  <br><a href="https://dub.sh/viaAurora/"><em>Pranav Sagar<em></a><br>
+  <a href="https://dub.sh/AuroraWeb">Visit <strong>Aurora</strong></a> | <a href="https://dub.sh/viaAurora/"><em>Pranav Sagar</em></a>
 </div>
 
 ## Table of Contents
 
 - ⚡ [Features](#features)
+- 👀 [Preview](#preview)
 - ⭐ [Support](#support)
 - 📜 [License](#license)
 
 ## Features
 
-1. 🎶 75+ ambient sounds to choose from.
-1. 💾 Your selected sounds are saved automatically.
-1. 🔗 Share your sound mix with others easily.
-1. ⚙️ Create your own presets.
-1. ⏳ Set a timer to stop sounds.
-1. 📝 Take quick notes anytime.
-1. ⏱️ Built-in Pomodoro timer.
-1. 📋 Simple to-do list
-1. ▶️ Easy playback controls.
-1. ⌨️ Use keyboard shortcuts for faster control.
-1. 🔒 No data tracking, fully private.
-1. 💰 Completely free and open-source.
+- 🎶 75+ ambient sounds to choose from.
+- 💾 Your selected sounds are saved automatically.
+- 🔗 Share your sound mix with others easily.
+- ⚙️ Create your own presets.
+- ⏳ Set a timer to stop sounds.
+- 📝 Take quick notes anytime.
+- ⏱️ Built-in Pomodoro timer.
+- 📋 Simple to-do list
+- ▶️ Easy playback controls.
+- ⌨️ Use keyboard shortcuts for faster control.
+- 🔒 No data tracking, fully private.
+- 💰 Completely free and open-source.
+
+## Preview
+
+<p align="center">
+  <img src="/Assets/Aurora1.png" width="300"/>
+  <img src="/Assets/Aurora2.png" width="300"/>
+</p>
 
 ## Support
 
