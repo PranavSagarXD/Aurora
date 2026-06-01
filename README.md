@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/Assets/Aurora.png" width="800" alt="Aurora Logo Banner" />
+  <img src="/assets/Aurora.png" width="800" alt="Aurora Logo Banner" />
   <h2>Aurora</h2>
   <p>Ambient sounds for focus and calm.</p>
   <a href="https://dub.sh/AuroraWeb">Visit <strong>Aurora</strong></a> | <a href="https://dub.sh/viaAurora/"><em>Pranav Sagar</em></a>
@@ -30,15 +30,15 @@
 ## Preview
 
 <p align="center">
-  <img src="/Assets/Aurora1.png" width="300"/>
-  <img src="/Assets/Aurora2.png" width="300"/>
+  <img src="/assets/Aurora1.png" width="300"/>
+  <img src="/assets/Aurora2.png" width="300"/>
 </p>
 
 ## Support
 
 ⭐ Give a star if you liked this project.
 
-☕ [Buy Me a Coffee](https://aurora.fanclub.rocks/Donate.html) to help me maintain Aurora.
+☕ [Buy Me a Coffee](https://dub.sh/AuroraDonate) to help me maintain Aurora.
 
 ## License
 
