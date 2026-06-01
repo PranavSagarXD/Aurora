@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aurora | Lost in Sound</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 🔒 HARD LOCK SCROLL / DRAG */
+html, body {
+    height: 100%;
+    overflow: hidden;
+    overscroll-behavior: none;
+    touch-action: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at top, #0a0f1c, #04060c);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* FIXED BACKGROUND GLOW (no overflow issues) */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle at 50% 20%, rgba(255,255,255,0.05), transparent 60%);
+    animation: drift 25s linear infinite;
+    pointer-events: none;
+}
+
+/* HEADER */
+header {
+    padding: 18px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+/* MAIN */
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* CARD */
+.card {
+    text-align: center;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.06);
+    backdrop-filter: blur(20px);
+    border-radius: 22px;
+    padding: 40px 25px;
+    max-width: 440px;
+    width: 100%;
+    animation: fadeUp 1s ease;
+}
+
+/* 404 */
+.code {
+    font-size: 3.5rem;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+/* ICON */
+.icon {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    animation: float 4s ease-in-out infinite;
+}
+
+/* TEXT */
+h1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 0.95rem;
+    opacity: 0.7;
+    line-height: 1.6;
+}
+
+/* WAVE LINE */
+.wave {
+    margin: 20px auto;
+    width: 80px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #fff, transparent);
+    animation: pulse 2s infinite;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.75rem;
+    opacity: 0.5;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+/* ANIMATIONS */
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+    0%,100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse {
+    0% { opacity: 0.3; }
+    50% { opacity: 1; }
+    100% { opacity: 0.3; }
+}
+
+@keyframes drift {
+    from { transform: translateY(0); }
+    to { transform: translateY(-30px); }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+    .card {
+        padding: 30px 20px;
+    }
+
+    .code {
+        font-size: 2.8rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    Aurora
+</header>
+
+<main>
+    <div class="card">
+        <div class="code">404</div>
+        <div class="icon">👁️‍🗨️</div>
+
+        <h1>Lost in the Soundscape</h1>
+
+        <p>
+            This page drifted into silence...<br><br>
+            Like an echo fading in the dark, it’s no longer here.
+        </p>
+
+        <div class="wave"></div>
+
+        <p style="font-size:0.8rem;">
+            Returning you to the music...
+        </p>
+    </div>
+</main>
+
+<footer>
+    © 2026 Aurora • Created by Pranav Sagar ✦
+</footer>
+
+<script>
+setTimeout(() => {
+    window.location.href = "https://dub.sh/viaError";
+}, 4000);
+</script>
+
+</body>
+</html>

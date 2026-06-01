@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aurora | Donations</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at top, #0a0f1c, #05070d);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* HEADER */
+header {
+    padding: 18px 25px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+/* MAIN */
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* CARD */
+.card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.06);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 40px 25px;
+    width: 100%;
+    max-width: 420px;
+    animation: fadeInUp 1s ease;
+}
+
+/* ICON */
+.icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* TEXT */
+h1 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 0.95rem;
+    opacity: 0.7;
+    line-height: 1.6;
+}
+
+/* LOADER */
+.loader {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.loader span {
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 50%;
+    animation: bounce 1.2s infinite;
+}
+
+.loader span:nth-child(2) { animation-delay: 0.2s; }
+.loader span:nth-child(3) { animation-delay: 0.4s; }
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.75rem;
+    opacity: 0.5;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+/* ANIMATIONS */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+@keyframes bounce {
+    0%, 80%, 100% { transform: scale(0); opacity: 0.3; }
+    40% { transform: scale(1); opacity: 1; }
+}
+
+/* MOBILE OPTIMIZATION */
+@media (max-width: 480px) {
+    .card {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    Aurora
+</header>
+
+<main>
+    <div class="card">
+        <div class="icon">❤️</div>
+        <h1>Donations Unavailable</h1>
+        <p>
+            Thank you for your interest in supporting Aurora.<br><br>
+            Donations are currently not available. We're working on bringing this soon.
+        </p>
+
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <p style="margin-top:15px; font-size:0.8rem;">
+            Redirecting you back...
+        </p>
+    </div>
+</main>
+
+<footer>
+    © 2026 Aurora • Created by Pranav Sagar ✦
+</footer>
+
+<script>
+setTimeout(() => {
+    window.location.href = "https://dub.sh/viaDonation";
+}, 4000); // 4 seconds (between 3–5 as requested)
+</script>
+
+</body>
+</html>
